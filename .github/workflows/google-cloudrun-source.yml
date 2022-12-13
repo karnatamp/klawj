@@ -51,7 +51,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # TODO: update Google Cloud project id
+  PROJECT_ID: dbg-sap-sbox-9d867594 # TODO: update Google Cloud project id
   SERVICE: python-tets # TODO: update Cloud Run service name
   REGION: europe-west1 # TODO: update Cloud Run service region
 
